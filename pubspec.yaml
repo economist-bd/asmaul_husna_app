@@ -1,0 +1,23 @@
+name: asmaul_husna_app
+description: A Flutter app for 99 Names of Allah.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # ক্যালিগ্রাফি ফন্টের জন্য এই প্যাকেজটি যুক্ত করা হলো
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
